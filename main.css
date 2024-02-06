@@ -1,8 +1,8 @@
 .container {
     display: inline-flex;
 
-    align-items: center; /*cross*/
-    justify-content: start; /*main*/
+    align-items: center; /*cross y*/ 
+    justify-content: start; /*main x*/
 
     /*
     flex-direction: row;
