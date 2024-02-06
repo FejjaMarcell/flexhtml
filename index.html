@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <title>CSS Flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <div id="1" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="2" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="3" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="4" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="5" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="6" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="7" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+        <div id="8" class="item" onclick="Click(this)">
+            CÍM
+        </div>
+    </div>
+
+    <script>
+        function Click(item) {
+            if(item.className === "item"){
+                item.className += " active";
+            }else{
+                item.className = "item";
+            }
+        }
+    </script>
+</body>
+</html>
